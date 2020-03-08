@@ -1,14 +1,14 @@
 import React from 'react';
 // import './App.css';
 import Table from "./components/Table";
-import Header from "./components/Header"
+import Nav from "./components/Nav"
 
  
  
 function App() {
   return (
     <>
-      <Header />
+      <Nav />
       <Table />
     </>
   );

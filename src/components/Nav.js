@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Header() {
+function Nav() {
     return (
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark row" >
-          <a className="navbar-brand col-md-6" href="#">Directory</a>
+          <p className="navbar-brand col-md-6" >Directory</p>
           <div className="col-md-6">
             <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
               aria-expanded="false" aria-label="Toggle navigation"></button>
@@ -20,4 +20,4 @@ function Header() {
 };
 
 
-export default Header;
+export default Nav;
