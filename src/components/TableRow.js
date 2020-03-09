@@ -3,7 +3,6 @@ import React from 'react';
 
 function TableRow(props) {
     return (
-      // User.length > 0 && (
       <>
         <table className="table" >
           <tr className="row">
@@ -14,7 +13,6 @@ function TableRow(props) {
         </table>  
       </>
     )
-    // );
 };
  
 export default TableRow;

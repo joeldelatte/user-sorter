@@ -26,7 +26,16 @@ const User = [
           phone: "2354430",
           email: "joe.jacson@learningcontainer.com",
           dob: "07-23-2000"
+        },
+        {
+          userId: 4,
+          image:"",
+          firstName: "Jimmy",
+          lastName: "Hoffa",
+          phone: "2354430",
+          email: "joe.jacson@learningcontainer.com",
+          dob: "07-23-2000"
         }
-    ]
+]
 
 export default User;

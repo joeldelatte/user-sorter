@@ -1,8 +1,14 @@
 import React from 'react';
 
+const styles = {
+  navMargin: {
+    marginBottom: "50px"
+  }
+}
+
 function Nav() {
     return (
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark row" >
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark row" style={styles.navMargin}>
           <p className="navbar-brand col-md-6" >Directory</p>
           <div className="col-md-6">
             <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
